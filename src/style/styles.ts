@@ -1,0 +1,72 @@
+export const styles: Record<string, React.CSSProperties> = {
+    pageWrapper: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        background: "#f7f8fa",
+        padding: "20px",
+    },
+    container: {
+        width: "100%",
+        maxWidth: "700px",
+        background: "#fff",
+        padding: "20px",
+        borderRadius: "10px",
+        boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+    },
+    title: {
+        textAlign: "center",
+        fontSize: "1.8rem",
+        marginBottom: "15px",
+        color: "#333",
+    },
+    searchFilter: {
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        gap: "10px",
+        marginBottom: "15px",
+    },
+    input: {
+        padding: "8px 10px",
+        borderRadius: "6px",
+        border: "1px solid #ccc",
+        width: "200px",
+        flexGrow: 1,
+    },
+    checkboxLabel: {
+        fontSize: "0.95rem",
+        color: "#333",
+    },
+    eventsList: {
+        display: "flex",
+        flexDirection: "column",
+        gap: "10px",
+    },
+    cardContainer: {
+        width: "100%",
+        maxWidth: "600px",
+        background: "#fff",
+        padding: "20px",
+        borderRadius: "10px",
+        boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+    },
+    centerContainer: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        background: "#f7f8fa",
+        padding: "20px",
+    },
+    loading: {
+        textAlign: "center",
+        fontSize: "1.2rem",
+    },
+    error: {
+        textAlign: "center",
+        color: "red",
+        fontSize: "1.2rem",
+    },
+};
